@@ -1,0 +1,420 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CD30524718DC79F700F1EDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30524618DC79F700F1EDD8 /* Foundation.framework */; };
+		CD30524C18DC79F700F1EDD8 /* JCKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD30524B18DC79F700F1EDD8 /* JCKit.h */; };
+		CD30524E18DC79F700F1EDD8 /* JCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30524D18DC79F700F1EDD8 /* JCKit.m */; };
+		CD30525518DC79F700F1EDD8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30525418DC79F700F1EDD8 /* XCTest.framework */; };
+		CD30525618DC79F700F1EDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30524618DC79F700F1EDD8 /* Foundation.framework */; };
+		CD30525818DC79F700F1EDD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30525718DC79F700F1EDD8 /* UIKit.framework */; };
+		CD30525B18DC79F700F1EDD8 /* libJCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30524318DC79F700F1EDD8 /* libJCKit.a */; };
+		CD30526118DC79F700F1EDD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD30525F18DC79F700F1EDD8 /* InfoPlist.strings */; };
+		CD30526318DC79F700F1EDD8 /* JCKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30526218DC79F700F1EDD8 /* JCKitTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CD30525918DC79F700F1EDD8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CD30523B18DC79F700F1EDD8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CD30524218DC79F700F1EDD8;
+			remoteInfo = JCKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		CD30524118DC79F700F1EDD8 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				CD30524C18DC79F700F1EDD8 /* JCKit.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		CD30524318DC79F700F1EDD8 /* libJCKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libJCKit.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD30524618DC79F700F1EDD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		CD30524A18DC79F700F1EDD8 /* JCKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JCKit-Prefix.pch"; sourceTree = "<group>"; };
+		CD30524B18DC79F700F1EDD8 /* JCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCKit.h; sourceTree = "<group>"; };
+		CD30524D18DC79F700F1EDD8 /* JCKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCKit.m; sourceTree = "<group>"; };
+		CD30525318DC79F700F1EDD8 /* JCKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD30525418DC79F700F1EDD8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		CD30525718DC79F700F1EDD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		CD30525E18DC79F700F1EDD8 /* JCKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JCKitTests-Info.plist"; sourceTree = "<group>"; };
+		CD30526018DC79F700F1EDD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		CD30526218DC79F700F1EDD8 /* JCKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCKitTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CD30524018DC79F700F1EDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30524718DC79F700F1EDD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD30525018DC79F700F1EDD8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30525518DC79F700F1EDD8 /* XCTest.framework in Frameworks */,
+				CD30525B18DC79F700F1EDD8 /* libJCKit.a in Frameworks */,
+				CD30525818DC79F700F1EDD8 /* UIKit.framework in Frameworks */,
+				CD30525618DC79F700F1EDD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CD30523A18DC79F700F1EDD8 = {
+			isa = PBXGroup;
+			children = (
+				CD30524818DC79F700F1EDD8 /* JCKit */,
+				CD30525C18DC79F700F1EDD8 /* JCKitTests */,
+				CD30524518DC79F700F1EDD8 /* Frameworks */,
+				CD30524418DC79F700F1EDD8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CD30524418DC79F700F1EDD8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CD30524318DC79F700F1EDD8 /* libJCKit.a */,
+				CD30525318DC79F700F1EDD8 /* JCKitTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CD30524518DC79F700F1EDD8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CD30524618DC79F700F1EDD8 /* Foundation.framework */,
+				CD30525418DC79F700F1EDD8 /* XCTest.framework */,
+				CD30525718DC79F700F1EDD8 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CD30524818DC79F700F1EDD8 /* JCKit */ = {
+			isa = PBXGroup;
+			children = (
+				CD30524B18DC79F700F1EDD8 /* JCKit.h */,
+				CD30524D18DC79F700F1EDD8 /* JCKit.m */,
+				CD30524918DC79F700F1EDD8 /* Supporting Files */,
+			);
+			path = JCKit;
+			sourceTree = "<group>";
+		};
+		CD30524918DC79F700F1EDD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD30524A18DC79F700F1EDD8 /* JCKit-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD30525C18DC79F700F1EDD8 /* JCKitTests */ = {
+			isa = PBXGroup;
+			children = (
+				CD30526218DC79F700F1EDD8 /* JCKitTests.m */,
+				CD30525D18DC79F700F1EDD8 /* Supporting Files */,
+			);
+			path = JCKitTests;
+			sourceTree = "<group>";
+		};
+		CD30525D18DC79F700F1EDD8 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CD30525E18DC79F700F1EDD8 /* JCKitTests-Info.plist */,
+				CD30525F18DC79F700F1EDD8 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CD30524218DC79F700F1EDD8 /* JCKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD30526618DC79F700F1EDD8 /* Build configuration list for PBXNativeTarget "JCKit" */;
+			buildPhases = (
+				CD30523F18DC79F700F1EDD8 /* Sources */,
+				CD30524018DC79F700F1EDD8 /* Frameworks */,
+				CD30524118DC79F700F1EDD8 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JCKit;
+			productName = JCKit;
+			productReference = CD30524318DC79F700F1EDD8 /* libJCKit.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		CD30525218DC79F700F1EDD8 /* JCKitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CD30526918DC79F700F1EDD8 /* Build configuration list for PBXNativeTarget "JCKitTests" */;
+			buildPhases = (
+				CD30524F18DC79F700F1EDD8 /* Sources */,
+				CD30525018DC79F700F1EDD8 /* Frameworks */,
+				CD30525118DC79F700F1EDD8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CD30525A18DC79F700F1EDD8 /* PBXTargetDependency */,
+			);
+			name = JCKitTests;
+			productName = JCKitTests;
+			productReference = CD30525318DC79F700F1EDD8 /* JCKitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CD30523B18DC79F700F1EDD8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = JoshCodes;
+			};
+			buildConfigurationList = CD30523E18DC79F700F1EDD8 /* Build configuration list for PBXProject "JCKit" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CD30523A18DC79F700F1EDD8;
+			productRefGroup = CD30524418DC79F700F1EDD8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CD30524218DC79F700F1EDD8 /* JCKit */,
+				CD30525218DC79F700F1EDD8 /* JCKitTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CD30525118DC79F700F1EDD8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30526118DC79F700F1EDD8 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CD30523F18DC79F700F1EDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30524E18DC79F700F1EDD8 /* JCKit.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD30524F18DC79F700F1EDD8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CD30526318DC79F700F1EDD8 /* JCKitTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CD30525A18DC79F700F1EDD8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CD30524218DC79F700F1EDD8 /* JCKit */;
+			targetProxy = CD30525918DC79F700F1EDD8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CD30525F18DC79F700F1EDD8 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CD30526018DC79F700F1EDD8 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CD30526418DC79F700F1EDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		CD30526518DC79F700F1EDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CD30526718DC79F700F1EDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JCKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCKit/JCKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		CD30526818DC79F700F1EDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/JCKit.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCKit/JCKit-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		CD30526A18DC79F700F1EDD8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCKit/JCKit-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "JCKitTests/JCKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		CD30526B18DC79F700F1EDD8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "JCKit/JCKit-Prefix.pch";
+				INFOPLIST_FILE = "JCKitTests/JCKitTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CD30523E18DC79F700F1EDD8 /* Build configuration list for PBXProject "JCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD30526418DC79F700F1EDD8 /* Debug */,
+				CD30526518DC79F700F1EDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CD30526618DC79F700F1EDD8 /* Build configuration list for PBXNativeTarget "JCKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD30526718DC79F700F1EDD8 /* Debug */,
+				CD30526818DC79F700F1EDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CD30526918DC79F700F1EDD8 /* Build configuration list for PBXNativeTarget "JCKitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD30526A18DC79F700F1EDD8 /* Debug */,
+				CD30526B18DC79F700F1EDD8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CD30523B18DC79F700F1EDD8 /* Project object */;
+}
