@@ -6,8 +6,10 @@
 //  Copyright (c) 2014 JoshCodes. All rights reserved.
 //
 
-#import <Foundation/Foundation.h>
+#import "JCTableViewFetchedResultsController.h"
+#import "NSFetchedResultsController+JCTableViewFetchResultsController.h"
 
-@interface JCKit : NSObject
+#import "JCCollectionViewFetchedResultsController.h"
+#import "NSFetchedResultsController+JCCollectionViewFetchedResultsController.h"
 
-@end
+#import "JCBasic.h"

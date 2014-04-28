@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		CD30524718DC79F700F1EDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30524618DC79F700F1EDD8 /* Foundation.framework */; };
 		CD30524C18DC79F700F1EDD8 /* JCKit.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD30524B18DC79F700F1EDD8 /* JCKit.h */; };
-		CD30524E18DC79F700F1EDD8 /* JCKit.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30524D18DC79F700F1EDD8 /* JCKit.m */; };
 		CD30525518DC79F700F1EDD8 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30525418DC79F700F1EDD8 /* XCTest.framework */; };
 		CD30525618DC79F700F1EDD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30524618DC79F700F1EDD8 /* Foundation.framework */; };
 		CD30525818DC79F700F1EDD8 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30525718DC79F700F1EDD8 /* UIKit.framework */; };
 		CD30525B18DC79F700F1EDD8 /* libJCKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CD30524318DC79F700F1EDD8 /* libJCKit.a */; };
 		CD30526118DC79F700F1EDD8 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = CD30525F18DC79F700F1EDD8 /* InfoPlist.strings */; };
 		CD30526318DC79F700F1EDD8 /* JCKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30526218DC79F700F1EDD8 /* JCKitTests.m */; };
+		CD30527418DC7D0D00F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30527318DC7D0D00F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.m */; };
+		CD30528218DCD08600F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.m in Sources */ = {isa = PBXBuildFile; fileRef = CD30528118DCD08600F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.m */; };
+		CD30528418DFC94300F1EDD8 /* JCTableViewFetchedResultsController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD30527618DC7E0800F1EDD8 /* JCTableViewFetchedResultsController.h */; };
+		CD30528518DFC94300F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD30527218DC7D0D00F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.h */; };
+		CD30528618DFC94300F1EDD8 /* JCCollectionViewFetchedResultsController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD30528318DCD09A00F1EDD8 /* JCCollectionViewFetchedResultsController.h */; };
+		CD30528718DFC94300F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CD30528018DCD08600F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.h */; };
+		CDDD9A7118E34830003C3A0C /* JCBasic.m in Sources */ = {isa = PBXBuildFile; fileRef = CDDD9A7018E34830003C3A0C /* JCBasic.m */; };
+		CDDD9A7218E369B4003C3A0C /* JCBasic.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = CDDD9A6F18E34830003C3A0C /* JCBasic.h */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +42,11 @@
 			dstPath = "include/$(PRODUCT_NAME)";
 			dstSubfolderSpec = 16;
 			files = (
+				CDDD9A7218E369B4003C3A0C /* JCBasic.h in CopyFiles */,
+				CD30528418DFC94300F1EDD8 /* JCTableViewFetchedResultsController.h in CopyFiles */,
+				CD30528518DFC94300F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.h in CopyFiles */,
+				CD30528618DFC94300F1EDD8 /* JCCollectionViewFetchedResultsController.h in CopyFiles */,
+				CD30528718DFC94300F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.h in CopyFiles */,
 				CD30524C18DC79F700F1EDD8 /* JCKit.h in CopyFiles */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -46,13 +58,20 @@
 		CD30524618DC79F700F1EDD8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		CD30524A18DC79F700F1EDD8 /* JCKit-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "JCKit-Prefix.pch"; sourceTree = "<group>"; };
 		CD30524B18DC79F700F1EDD8 /* JCKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = JCKit.h; sourceTree = "<group>"; };
-		CD30524D18DC79F700F1EDD8 /* JCKit.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCKit.m; sourceTree = "<group>"; };
 		CD30525318DC79F700F1EDD8 /* JCKitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JCKitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CD30525418DC79F700F1EDD8 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
 		CD30525718DC79F700F1EDD8 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		CD30525E18DC79F700F1EDD8 /* JCKitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "JCKitTests-Info.plist"; sourceTree = "<group>"; };
 		CD30526018DC79F700F1EDD8 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		CD30526218DC79F700F1EDD8 /* JCKitTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JCKitTests.m; sourceTree = "<group>"; };
+		CD30527218DC7D0D00F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFetchedResultsController+JCTableViewFetchResultsController.h"; path = "ViewModel/Categories/NSFetchedResultsController+JCTableViewFetchResultsController.h"; sourceTree = "<group>"; };
+		CD30527318DC7D0D00F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFetchedResultsController+JCTableViewFetchResultsController.m"; path = "ViewModel/Categories/NSFetchedResultsController+JCTableViewFetchResultsController.m"; sourceTree = "<group>"; };
+		CD30527618DC7E0800F1EDD8 /* JCTableViewFetchedResultsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JCTableViewFetchedResultsController.h; path = ViewModel/Categories/JCTableViewFetchedResultsController.h; sourceTree = "<group>"; usesTabs = 0; };
+		CD30528018DCD08600F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSFetchedResultsController+JCCollectionViewFetchedResultsController.h"; path = "ViewModel/Categories/NSFetchedResultsController+JCCollectionViewFetchedResultsController.h"; sourceTree = "<group>"; };
+		CD30528118DCD08600F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSFetchedResultsController+JCCollectionViewFetchedResultsController.m"; path = "ViewModel/Categories/NSFetchedResultsController+JCCollectionViewFetchedResultsController.m"; sourceTree = "<group>"; };
+		CD30528318DCD09A00F1EDD8 /* JCCollectionViewFetchedResultsController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = JCCollectionViewFetchedResultsController.h; path = ViewModel/Categories/JCCollectionViewFetchedResultsController.h; sourceTree = "<group>"; };
+		CDDD9A6F18E34830003C3A0C /* JCBasic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCBasic.h; sourceTree = "<group>"; };
+		CDDD9A7018E34830003C3A0C /* JCBasic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JCBasic.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,9 +129,14 @@
 		CD30524818DC79F700F1EDD8 /* JCKit */ = {
 			isa = PBXGroup;
 			children = (
+				CD30527018DC7CC300F1EDD8 /* ViewModel */,
+				CD30526E18DC7B6600F1EDD8 /* Screens */,
+				CD30526D18DC7B5700F1EDD8 /* Models */,
+				CD30526C18DC7B4C00F1EDD8 /* Web */,
 				CD30524B18DC79F700F1EDD8 /* JCKit.h */,
-				CD30524D18DC79F700F1EDD8 /* JCKit.m */,
 				CD30524918DC79F700F1EDD8 /* Supporting Files */,
+				CDDD9A6F18E34830003C3A0C /* JCBasic.h */,
+				CDDD9A7018E34830003C3A0C /* JCBasic.m */,
 			);
 			path = JCKit;
 			sourceTree = "<group>";
@@ -141,6 +165,64 @@
 				CD30525F18DC79F700F1EDD8 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CD30526C18DC7B4C00F1EDD8 /* Web */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Web;
+			sourceTree = "<group>";
+		};
+		CD30526D18DC7B5700F1EDD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				CD30526F18DC7B9400F1EDD8 /* Categories */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		CD30526E18DC7B6600F1EDD8 /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Screens;
+			sourceTree = "<group>";
+		};
+		CD30526F18DC7B9400F1EDD8 /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Categories;
+			sourceTree = "<group>";
+		};
+		CD30527018DC7CC300F1EDD8 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				CD30527518DC7DA100F1EDD8 /* Protocols */,
+				CD30527118DC7CD600F1EDD8 /* ViewCollectionsCoreData */,
+			);
+			name = ViewModel;
+			sourceTree = "<group>";
+		};
+		CD30527118DC7CD600F1EDD8 /* ViewCollectionsCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				CD30527618DC7E0800F1EDD8 /* JCTableViewFetchedResultsController.h */,
+				CD30527218DC7D0D00F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.h */,
+				CD30527318DC7D0D00F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.m */,
+				CD30528318DCD09A00F1EDD8 /* JCCollectionViewFetchedResultsController.h */,
+				CD30528018DCD08600F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.h */,
+				CD30528118DCD08600F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.m */,
+			);
+			name = ViewCollectionsCoreData;
+			sourceTree = "<group>";
+		};
+		CD30527518DC7DA100F1EDD8 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,7 +306,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CD30524E18DC79F700F1EDD8 /* JCKit.m in Sources */,
+				CD30528218DCD08600F1EDD8 /* NSFetchedResultsController+JCCollectionViewFetchedResultsController.m in Sources */,
+				CD30527418DC7D0D00F1EDD8 /* NSFetchedResultsController+JCTableViewFetchResultsController.m in Sources */,
+				CDDD9A7118E34830003C3A0C /* JCBasic.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +373,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -320,6 +405,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				GENERATE_MASTER_OBJECT_FILE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -332,6 +418,7 @@
 				DSTROOT = /tmp/JCKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCKit/JCKit-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -344,6 +431,7 @@
 				DSTROOT = /tmp/JCKit.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "JCKit/JCKit-Prefix.pch";
+				GENERATE_MASTER_OBJECT_FILE = YES;
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -405,6 +493,7 @@
 				CD30526818DC79F700F1EDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		CD30526918DC79F700F1EDD8 /* Build configuration list for PBXNativeTarget "JCKitTests" */ = {
 			isa = XCConfigurationList;
@@ -413,6 +502,7 @@
 				CD30526B18DC79F700F1EDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
